@@ -19,25 +19,25 @@
   </head>
   <body class="body">
     <header class="header">
-      <div class="container">
-        <nav>
+      <div class="container main-menu">
+        <nav class="nav-menu">
           <a href="./index.html" class="logo"
             >Web<span class="logo-studio">Studio</span></a
           >
           <ul class="site-nav list">
-            <li><a href="./index.html" class="link current">Студія</a></li>
-            <li><a href="./portfolio.html" class="link">Портфоліо</a></li>
-            <li><a href="" class="link">Контакти</a></li>
+            <li class="item"><a href="./index.html" class="link current">Студія</a></li>
+            <li class="item"><a href="./portfolio.html" class="link">Портфоліо</a></li>
+            <li class="item"><a href="" class="link">Контакти</a></li>
           </ul>
         </nav>
         <ul class="contacts list">
-          <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-          <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+          <li class="item"><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+          <li class="item"><a href="tel:+380961111111">+38 096 111 11 11</a></li>
         </ul>
       </div>
     </header>
     <main>
-      <section class="section hero">
+      <section class="section-hero">
         <div class="container">
           <h1 class="hero-title">
             Ефективні рішення для <br />
@@ -50,27 +50,27 @@
         <div class="container">
           <h2 class="title-to-delete">Наші принципи</h2>
           <ul class="principles list">
-            <li>
+            <li class="item">
               <h3 class="title">УВАГА ДО ДЕТАЛЕЙ</h3>
               <p>
                 Ідейні міркування, і навіть початок повсякденної роботи з
                 формування позиції.
               </p>
             </li>
-            <li>
+            <li class="item">
               <h3 class="title">ПУНКТУАЛЬНІСТЬ</h3>
               <p>
                 Завдання організації, особливо рамки і місце навчання кадрів
                 тягне у себе.
               </p>
             </li>
-            <li>
+            <li class="item">
               <h3 class="title">ПЛАНУВАННЯ</h3>
               <p>
                 Так само консультація з широким активом значною мірою зумовлює.
               </p>
             </li>
-            <li>
+            <li class="item">
               <h3 class="title">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
               <p>
                 Значимість цих проблем настільки очевидна, що реалізація
@@ -85,21 +85,21 @@
           <h2 class="section-title">Чим ми займаємося</h2>
           <ul class="work list">
             <li class="work-img">
-              <img
+              <img class="image"
                 src="./images/box/box1.jpg"
                 alt="Написання коду"
                 width="370"
               />
             </li>
             <li class="work-img">
-              <img
+              <img class="image"
                 src="./images/box/box2.jpg"
                 alt="Виготовлення дизайну інтерфейсу"
                 width="370"
               />
             </li>
             <li class="work-img">
-              <img
+              <img class="image"
                 src="./images/box/box3.jpg"
                 alt="Підбір кольорів дизайну"
                 width="370"
@@ -161,9 +161,11 @@
     </main>
     <footer class="footer">
       <div class="container">
-        <a href="./index.html" class="footer-logo"
-          >Web<span class="footer-logo-studio">Studio</span></a
-        >
+        <div class="footer-container">
+          <a href="./index.html" class="footer-logo"
+          >Web<span class="footer-logo-studio">Studio</span></a>
+        </div>
+
         <address>
           <ul class="address list">
             <li>
@@ -176,12 +178,11 @@
               >
             </li>
             <li>
-              <a href="mailto:info@devstudio.com" class="address-link"
-                >info@devstudio.com</a
-              >
+              <a href="mailto:info@devstudio.com" class="address-link-mail"
+                >info@devstudio.com</a>
             </li>
             <li>
-              <a href="tel:+380961111111" class="address-link"
+              <a href="tel:+380961111111" class="address-link-phone"
                 >+38 096 111 11 11</a
               >
             </li>
